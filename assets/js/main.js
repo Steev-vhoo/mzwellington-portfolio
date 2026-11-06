@@ -100,6 +100,26 @@
     })
   );
 
+  // Intro video (plays with sound on click, inside the blob frame)
+  const video = $("#intro-video");
+  const playBtn = $("#play-btn");
+  if (video && playBtn) {
+    const wrap = video.closest(".about__video");
+    const toggle = () => (video.paused ? video.play() : video.pause());
+    playBtn.addEventListener("click", toggle);
+    video.addEventListener("click", toggle);
+    video.addEventListener("play", () => {
+      wrap.classList.add("playing");
+      playBtn.setAttribute("aria-label", "Pause video introduction");
+    });
+    const stopped = () => {
+      wrap.classList.remove("playing");
+      playBtn.setAttribute("aria-label", "Play my video introduction");
+    };
+    video.addEventListener("pause", stopped);
+    video.addEventListener("ended", stopped);
+  }
+
   // Contact form
   // By default this opens the visitor's email app with the message pre-filled.
   // To receive messages without email apps, create a free form at https://formspree.io

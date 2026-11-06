@@ -10,7 +10,8 @@ Static site (HTML, CSS, vanilla JS) with no build step, ready for Vercel.
 index.html              All page sections
 assets/css/styles.css   Theme + layout (colors are CSS variables at the top)
 assets/js/main.js       Menu, typing effect, scroll animations, portfolio filter, contact form
-assets/img/             Photos (hero, about, cta, headshot)
+assets/img/             Photos (portrait = hero, portrait-face = CTA, intro-poster = video thumbnail)
+assets/video/intro.mp4  Video introduction (About section)
 assets/favicon.svg
 vercel.json
 ```

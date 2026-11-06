@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MzWellington | Growth Marketer, Data Analyst &amp; Biostatistician</title>
   <meta name="description" content="MzWellington is a digital and growth marketer, data analyst, biostatistician, SEO strategist and content strategist who turns data into growth." />
-  <meta name="theme-color" content="#F9B91C" />
+  <meta name="theme-color" content="#0e0e11" />
 
   <!-- Open Graph / social sharing -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="MzWellington | Data-Driven Growth" />
   <meta property="og:description" content="Digital & growth marketing, data analysis, biostatistics, SEO and content strategy." />
-  <meta property="og:image" content="/assets/img/hero.jpg" />
+  <meta property="og:image" content="/assets/img/portrait.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
@@ -105,7 +105,7 @@
           <div class="blob blob--yellow hero__blob" aria-hidden="true"></div>
           <div class="dots dots--grey hero__dots" aria-hidden="true"></div>
           <figure class="hero__photo blob-mask">
-            <img src="/assets/img/hero.jpg" alt="MzWellington smiling in front of yellow flowers" width="1100" height="1309" fetchpriority="high" />
+            <img src="/assets/img/portrait.jpg" alt="Portrait of MzWellington in a black off-shoulder dress" width="1069" height="1403" fetchpriority="high" />
           </figure>
         </div>
       </div>
@@ -145,9 +145,14 @@
         <div class="about__visual reveal">
           <div class="dots dots--grey about__dots" aria-hidden="true"></div>
           <div class="blob blob--yellow about__blob" aria-hidden="true"></div>
-          <figure class="about__photo blob-mask blob-mask--alt">
-            <img src="/assets/img/about.jpg" alt="MzWellington in a vibrant African print outfit" width="828" height="1090" loading="lazy" />
+          <figure class="about__photo about__video blob-mask blob-mask--alt">
+            <video id="intro-video" src="/assets/video/intro.mp4" poster="/assets/img/intro-poster.jpg" preload="none" playsinline aria-label="Video introduction from MzWellington"></video>
+            <button class="play-btn" id="play-btn" type="button" aria-label="Play my video introduction">
+              <svg viewBox="0 0 24 24" class="play-btn__play"><path d="M8 5v14l11-7z"/></svg>
+              <svg viewBox="0 0 24 24" class="play-btn__pause"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+            </button>
           </figure>
+          <span class="about__watch" aria-hidden="true">Watch my intro ▸</span>
           <span class="about__hello" aria-hidden="true">Hi<br />There!</span>
         </div>
 
@@ -446,7 +451,7 @@
           <a href="#contact" class="btn btn--dark">Start a Project</a>
         </div>
         <figure class="cta__photo blob-mask reveal">
-          <img src="/assets/img/cta.jpg" alt="MzWellington smiling in the sunshine" width="1050" height="1400" loading="lazy" />
+          <img src="/assets/img/portrait-face.jpg" alt="Close-up portrait of MzWellington" width="740" height="920" loading="lazy" />
         </figure>
       </div>
     </section>
@@ -455,16 +460,11 @@
     <section class="contact section" id="contact">
       <div class="container contact__inner">
         <div class="contact__info reveal">
-          <div class="contact__photo-wrap">
-            <div class="blob blob--yellow contact__blob" aria-hidden="true"></div>
-            <figure class="contact__photo blob-mask blob-mask--alt">
-              <img src="/assets/img/headshot.jpg" alt="Professional portrait of MzWellington" width="1083" height="1400" loading="lazy" />
-            </figure>
-          </div>
           <div class="section-head">
             <span class="section-head__tag">contact</span>
             <h2>Let's Work Together</h2>
           </div>
+          <p>Tell me about your campaign, dataset or research question and I'll get back to you within two working days.</p>
           <ul class="contact__list">
             <li><span class="contact__ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><small>Email</small><a href="mailto:hello@mzwellington.com">hello@mzwellington.com</a></div></li>
             <li><span class="contact__ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><small>Location</small><span>Accra, Ghana · Available remotely</span></div></li>
