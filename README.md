@@ -10,7 +10,7 @@ Static site (HTML, CSS, vanilla JS) with no build step, ready for Vercel.
 index.html              All page sections
 assets/css/styles.css   Theme + layout (colors are CSS variables at the top)
 assets/js/main.js       Menu, typing effect, scroll animations, portfolio filter, contact form
-assets/img/             Photos (portrait = hero, portrait-face = CTA, intro-poster = video thumbnail)
+assets/img/             Photos (portrait = hero, cta = CTA section, contact = Contact section, intro-poster = video thumbnail)
 assets/video/intro.mp4  Video introduction (About section)
 assets/favicon.svg
 vercel.json
@@ -21,7 +21,7 @@ vercel.json
 Search `index.html` for these:
 
 - **Email**: `patienceotobia23@gmail.com` (also `CONTACT_EMAIL` in `assets/js/main.js`). Done.
-- **Social links**: LinkedIn is done (`/in/patiencewellington`). X, Instagram, Medium and GitHub URLs are still placeholders.
+- **Social links**: LinkedIn is done (`/in/patiencewellington`). Instagram is done (`patience_wellington`). X, Medium and GitHub URLs are still placeholders.
 - **Location**: "Accra, Ghana"
 - **Stats**: years, projects, clients (`data-count` values)
 - **Portfolio**: the six case studies and their KPI numbers are samples. Replace them with real projects.
