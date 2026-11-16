@@ -21,7 +21,7 @@ vercel.json
 Search `index.html` for these:
 
 - **Email**: `patienceotobia23@gmail.com` (also `CONTACT_EMAIL` in `assets/js/main.js`). Done.
-- **Social links**: LinkedIn is done (`/in/patiencewellington`). Instagram is done (`patience_wellington`). X, Medium and GitHub URLs are still placeholders.
+- **Social links**: LinkedIn is done (`/in/patiencewellington`). Instagram is done (`patience_wellington`). GitHub is done (`prettygirlscode`). All social links are now real.
 - **Location**: Accra, Ghana. Done.
 - **Stats**: years, projects, clients (`data-count` values)
 - **Portfolio**: the six case studies and their KPI numbers are samples. Replace them with real projects.
