@@ -22,12 +22,12 @@ Search `index.html` for these:
 
 - **Email**: `patienceotobia23@gmail.com` (also `CONTACT_EMAIL` in `assets/js/main.js`). Done.
 - **Social links**: LinkedIn is done (`/in/patiencewellington`). Instagram is done (`patience_wellington`). X, Medium and GitHub URLs are still placeholders.
-- **Location**: "Accra, Ghana"
+- **Location**: Accra, Ghana. Done.
 - **Stats**: years, projects, clients (`data-count` values)
 - **Portfolio**: the six case studies and their KPI numbers are samples. Replace them with real projects.
 - **Resume**: job titles, organisations, dates, degrees, universities, certifications
 - **Skill percentages**
-- **CV**: add the PDF as `assets/MzWellington-CV.pdf` (the "Download CV" button points there)
+- **CV**: done. "Download CV" uses the Google Doc's PDF export link (`.../export?format=pdf`), so it downloads the latest version of the doc. The doc must stay shared as "Anyone with the link can view".
 
 ## Contact form
 

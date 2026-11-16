@@ -148,7 +148,7 @@ svg { display: block; }
 .hero__role { color: var(--yellow); display: inline-flex; align-items: center; min-height: 1.3em; }
 .caret { display: inline-block; width: 3px; height: .95em; background: var(--yellow); margin-left: 6px; animation: blink 1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
-.hero__lead { max-width: 470px; }
+.hero__lead { max-width: 500px; }
 .hero__meta { display: flex; gap: 40px; margin: 24px 0 34px; flex-wrap: wrap; }
 .hero__meta h4 { font-size: 13.5px; margin-bottom: 2px; }
 .hero__meta a { font-size: 13.5px; transition: color .2s; }
@@ -161,7 +161,7 @@ svg { display: block; }
 .hero__photo { position: absolute; width: 82%; height: 88%; right: 2%; top: 20px; box-shadow: var(--shadow-lg); border: 8px solid var(--heading); }
 .hero__photo img { object-position: 50% 22%; }
 
-.role-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: 900px; margin: -40px 0 0 70px; position: relative; z-index: 3; padding-bottom: 30px; }
+.role-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; max-width: 900px; margin: 30px 0 0 70px; position: relative; z-index: 3; padding-bottom: 30px; }
 .role-card {
   display: flex; align-items: center; gap: 16px; background: rgba(26,26,32,.85); backdrop-filter: blur(10px);
   padding: 20px 22px; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow);
