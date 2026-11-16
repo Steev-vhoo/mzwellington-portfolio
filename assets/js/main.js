@@ -125,7 +125,7 @@
   // To receive messages without email apps, create a free form at https://formspree.io
   // and paste its endpoint below (e.g. "https://formspree.io/f/abcdwxyz").
   const FORM_ENDPOINT = "";
-  const CONTACT_EMAIL = "hello@mzwellington.com";
+  const CONTACT_EMAIL = "patienceotobia23@gmail.com";
 
   const form = $("#contact-form");
   const status = $("#form-status");
