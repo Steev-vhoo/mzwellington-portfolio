@@ -357,7 +357,7 @@ svg { display: block; }
 .contact__photo-wrap { position: relative; width: 240px; height: 300px; margin-bottom: 40px; }
 .contact__blob { inset: 18px -18px -18px 18px; }
 .contact__photo { position: absolute; inset: 0; border: 6px solid var(--heading); box-shadow: var(--shadow-lg); }
-.contact__photo img { object-position: 50% 15%; }
+.contact__photo img { object-position: 50% 20%; }
 .contact__list { display: grid; gap: 18px; margin-top: 30px; }
 .contact__list li { display: flex; gap: 16px; align-items: center; }
 .contact__list small { display: block; font-family: var(--font-head); color: var(--heading); font-weight: 600; font-size: 12.5px; line-height: 1.4; }
