@@ -10,7 +10,7 @@ Static site (HTML, CSS, vanilla JS) with no build step, ready for Vercel.
 index.html              All page sections
 assets/css/styles.css   Theme + layout (colors are CSS variables at the top)
 assets/js/main.js       Menu, typing effect, scroll animations, portfolio filter, contact form
-assets/img/             Photos (portrait = hero, cta = CTA section, contact = Contact section, intro-poster = video thumbnail)
+assets/img/             Photos (portrait = hero, cta = CTA section, contact-portrait = Contact section, intro-poster = video thumbnail)
 assets/video/intro.mp4  Video introduction (About section)
 assets/favicon.svg
 vercel.json
@@ -48,3 +48,8 @@ Then open http://localhost:8080.
 2. In Vercel: **Add New → Project**, import the repo.
 3. Framework preset: **Other**. Leave the build command and output directory empty.
 4. Deploy.
+
+## Replacing images
+
+Browsers re-check files on every visit (`max-age=0, must-revalidate` in `vercel.json`), so an image you replace shows up after the next deploy.
+If a visitor still sees an old image, it's their browser's saved copy: a hard refresh (Ctrl+Shift+R, or Cmd+Shift+R on Mac) fixes it.
